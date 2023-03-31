@@ -44,16 +44,6 @@ public class English {
       break;
       case "NULL":
       break;
-      default:
-        System.out.println("Sorry that isn't one of the options.");
-        try{
-        Thread.sleep(2500);
-      }
-        catch(Exception e){}
-        System.out.println("\033[H\033[2J");
-        System.out.flush();
-        Main MainObjectLanguage = new Main();
-        MainObjectLanguage.main(args);
     }
   }
 }
